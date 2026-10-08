@@ -1,0 +1,132 @@
+export const galleryItems = [
+  {
+    id: 'gal-1',
+    category: 'bath',
+    title: 'Chipped Cast Iron Enamel Freestanding Bath',
+    location: 'Cheyne Walk, Chelsea',
+    damage: 'Heavy dropped bronze perfume bottle impact created a 25mm deep enamel chip exposing rusted iron base.',
+    technique: 'De-rust treatment, ceramic enamel filler, airbrushed colour-matched gloss glaze, polished flush.',
+    time: '2 hours 15 mins',
+    span: 'tall',
+    beforeImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Cast Iron Enamel'
+  },
+  {
+    id: 'gal-2',
+    category: 'floor',
+    title: 'Gouged European Herringbone Oak Flooring',
+    location: 'Holland Park, Kensington',
+    damage: 'Heavy piano caster drag left two 1.2m deep indentations through the timber grain into raw substrate.',
+    technique: 'Steam grain reactivation, colour-matched polymer timber resin, hand-rendered medullary rays, matt lacquer.',
+    time: '3 hours',
+    span: 'wide',
+    beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Herringbone Oak'
+  },
+  {
+    id: 'gal-3',
+    category: 'basin',
+    title: 'Hairline Thermal Crack in Carrara Vanity Basin',
+    location: 'Eaton Square, Belgravia',
+    damage: 'Thermal shock fracture running 180mm from drain hole up through polished Italian marble basin rim.',
+    technique: 'Capillary resin vacuum injection, pigment veining realignment, 3000-grit wet diamond buffing.',
+    time: '1 hour 45 mins',
+    span: 'standard',
+    beforeImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Carrara Marble'
+  },
+  {
+    id: 'gal-4',
+    category: 'door',
+    title: 'Burnt Quarter-Cut Walnut Fire Door',
+    location: 'Canary Wharf Executive Suite',
+    damage: 'Overheated halogen lamp left a 60mm charred black burn on executive boardroom veneer entry door.',
+    technique: 'Surgical excision of charred fibres, grain-structure rebuilding, layered aniline dyes and semi-matt lacquer.',
+    time: '2 hours 30 mins',
+    span: 'standard',
+    beforeImage: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Quarter-Cut Walnut'
+  },
+  {
+    id: 'gal-5',
+    category: 'window',
+    title: 'Scratched Anthracite Grey (RAL 7016) UPVC Frame',
+    location: 'Richmond Riverside Penthouse',
+    damage: 'Scaffolding pipe collision during balcony works gouged deep white plastic furrows across frame face.',
+    technique: 'Structural plastic welding, fine contoured reprofiling, factory electrostatic RAL 7016 satin spray.',
+    time: '1 hour 30 mins',
+    span: 'wide',
+    beforeImage: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Powder-Coated UPVC'
+  },
+  {
+    id: 'gal-6',
+    category: 'tile',
+    title: 'Misdrilled Porcelanosa Large Format Porcelain Tiles',
+    location: 'Bishops Avenue, Hampstead',
+    damage: 'Redundant 12mm expansion bolt holes in newly installed luxury bathroom feature wall.',
+    technique: 'High-density mineral plug, micro-aggregate porcelain filler, printed surface matrix texture match.',
+    time: '1 hour 15 mins',
+    span: 'standard',
+    beforeImage: 'https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Porcelain Tile'
+  },
+  {
+    id: 'gal-7',
+    category: 'furniture',
+    title: 'Chipped Calacatta Viola Marble Dining Table',
+    location: 'Mount Street, Mayfair',
+    damage: 'Heavy candelabra drop fractured a 40mm triangular chunk from the bevelled table perimeter.',
+    technique: 'Two-part optical stone resin, violet and charcoal pigment blending, polished to original 85GU gloss.',
+    time: '2 hours',
+    span: 'tall',
+    beforeImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Calacatta Viola'
+  },
+  {
+    id: 'gal-8',
+    category: 'shower-tray',
+    title: 'Cracked Stone-Resin Walk-In Shower Tray',
+    location: 'Nine Elms, Battersea',
+    damage: 'Heavy tile adhesive trowel dropped during snagging cracked the matte slate shower tray corner.',
+    technique: 'Structural underside resin bond, slate micro-texture recreation, waterproof slip-resistant coating.',
+    time: '2 hours 10 mins',
+    span: 'standard',
+    beforeImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Slate Stone-Resin'
+  },
+  {
+    id: 'gal-9',
+    category: 'panel',
+    title: 'Scratched Brushed Stainless Steel Lift Car Panels',
+    location: 'The Shard, London Bridge',
+    damage: 'Luggage trolley scraping scored deep transverse scratches across grain of No. 4 brushed metal panels.',
+    technique: 'Micro-abrasive grain realignment, localized chemical passivation, uniform lustre match.',
+    time: '3 hours 30 mins',
+    span: 'wide',
+    beforeImage: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1200&q=80',
+    afterImage: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80',
+    badge: 'Brushed Steel'
+  }
+];
+
+export const galleryCategories = [
+  { id: 'all', label: 'ALL' },
+  { id: 'bath', label: 'BATH' },
+  { id: 'basin', label: 'BASIN' },
+  { id: 'door', label: 'DOOR' },
+  { id: 'floor', label: 'FLOOR' },
+  { id: 'furniture', label: 'FURNITURE' },
+  { id: 'window', label: 'WINDOW' },
+  { id: 'tile', label: 'TILE' },
+  { id: 'panel', label: 'PANEL' },
+  { id: 'shower-tray', label: 'SHOWER TRAY' }
+];
